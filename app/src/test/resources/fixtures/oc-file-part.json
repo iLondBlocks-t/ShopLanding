@@ -1,0 +1,17 @@
+{
+  "id": "evt_file_part",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_file",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "file",
+      "mime": "text/plain",
+      "url": "file:///workspace/demo/README.md",
+      "filename": "README.md"
+    },
+    "time": 151
+  }
+}

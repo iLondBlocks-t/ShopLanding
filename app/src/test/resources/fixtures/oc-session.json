@@ -1,0 +1,12 @@
+{
+  "id": "ses_main",
+  "slug": "demo",
+  "projectID": "prj_demo",
+  "directory": "/workspace/demo",
+  "title": "Build the Android app",
+  "version": "1.18.35",
+  "time": {
+    "created": 1791670800000,
+    "updated": 1791670800300
+  }
+}

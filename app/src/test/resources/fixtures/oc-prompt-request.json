@@ -1,0 +1,13 @@
+{
+  "messageID": "msg_0123456789ab0123456789abcd",
+  "model": {
+    "providerID": "openai",
+    "modelID": "gpt-4.1"
+  },
+  "parts": [
+    {
+      "type": "text",
+      "text": "Build the APK"
+    }
+  ]
+}

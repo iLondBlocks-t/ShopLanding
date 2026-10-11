@@ -1,0 +1,117 @@
+{
+  "info": {
+    "id": "msg_assistant",
+    "sessionID": "ses_main",
+    "role": "assistant",
+    "time": {
+      "created": 1791670800010,
+      "completed": 1791670800300
+    },
+    "parentID": "msg_user",
+    "modelID": "gpt-4.1",
+    "providerID": "openai",
+    "mode": "build",
+    "agent": "build",
+    "path": {
+      "cwd": "/workspace/demo",
+      "root": "/workspace/demo"
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    }
+  },
+  "parts": [
+    {
+      "id": "prt_text",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "text",
+      "text": "Hello world",
+      "time": {
+        "start": 1791670800010,
+        "end": 1791670800200
+      }
+    },
+    {
+      "id": "prt_reasoning",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "reasoning",
+      "text": "I will inspect the repository.",
+      "time": {
+        "start": 1791670800010,
+        "end": 1791670800011
+      }
+    },
+    {
+      "id": "prt_tool",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "tool",
+      "callID": "call_build",
+      "tool": "bash",
+      "state": {
+        "status": "completed",
+        "input": {
+          "command": "./gradlew assembleDebug"
+        },
+        "output": "BUILD SUCCESSFUL",
+        "title": "Build APK",
+        "metadata": {},
+        "time": {
+          "start": 1791670800020,
+          "end": 1791670800040
+        }
+      }
+    },
+    {
+      "id": "prt_step_start",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "step-start"
+    },
+    {
+      "id": "prt_step_finish",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "step-finish",
+      "reason": "stop",
+      "cost": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "reasoning": 0,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      }
+    },
+    {
+      "id": "prt_patch",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "patch",
+      "hash": "0000000000000000000000000000000000000000",
+      "files": [
+        "app/build.gradle"
+      ]
+    },
+    {
+      "id": "prt_file",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "file",
+      "mime": "text/plain",
+      "url": "file:///workspace/demo/README.md",
+      "filename": "README.md"
+    }
+  ]
+}

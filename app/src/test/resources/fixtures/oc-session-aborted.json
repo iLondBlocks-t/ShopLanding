@@ -1,0 +1,13 @@
+{
+  "id": "evt_session_aborted",
+  "type": "session.error",
+  "properties": {
+    "sessionID": "ses_main",
+    "error": {
+      "name": "MessageAbortedError",
+      "data": {
+        "message": "Aborted by the user"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "connected": true,
+  "login": "octocat",
+  "scopes": [
+    "repo"
+  ]
+}

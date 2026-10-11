@@ -1,0 +1,8 @@
+{
+  "id": "evt_message_removed",
+  "type": "message.removed",
+  "properties": {
+    "sessionID": "ses_main",
+    "messageID": "msg_assistant"
+  }
+}

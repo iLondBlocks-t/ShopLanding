@@ -1,0 +1,34 @@
+{
+  "id": "evt_message_assistant",
+  "type": "message.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "info": {
+      "id": "msg_assistant",
+      "sessionID": "ses_main",
+      "role": "assistant",
+      "time": {
+        "created": 1791670800010
+      },
+      "parentID": "msg_user",
+      "modelID": "gpt-4.1",
+      "providerID": "openai",
+      "mode": "build",
+      "agent": "build",
+      "path": {
+        "cwd": "/workspace/demo",
+        "root": "/workspace/demo"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "reasoning": 0,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      }
+    }
+  }
+}

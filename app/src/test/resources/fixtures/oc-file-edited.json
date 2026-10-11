@@ -1,0 +1,7 @@
+{
+  "id": "evt_file_edited",
+  "type": "file.edited",
+  "properties": {
+    "file": "/workspace/demo/app/build.gradle"
+  }
+}

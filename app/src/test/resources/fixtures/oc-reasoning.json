@@ -1,0 +1,19 @@
+{
+  "id": "evt_reasoning",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_reasoning",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "reasoning",
+      "text": "I will inspect the repository.",
+      "time": {
+        "start": 1791670800010,
+        "end": 1791670800011
+      }
+    },
+    "time": 110
+  }
+}

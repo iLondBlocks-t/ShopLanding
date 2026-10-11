@@ -1,0 +1,11 @@
+[
+  {
+    "id": "project_example",
+    "name": "Demo",
+    "repoFullName": "octocat/demo",
+    "branch": "main",
+    "archived": false,
+    "createdAt": "2026-10-10T21:00:00Z",
+    "lastActivityAt": "2026-10-10T22:00:00Z"
+  }
+]

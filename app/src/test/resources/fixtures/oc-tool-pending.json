@@ -1,0 +1,23 @@
+{
+  "id": "evt_tool_pending",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_tool",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "tool",
+      "callID": "call_build",
+      "tool": "bash",
+      "state": {
+        "status": "pending",
+        "input": {
+          "command": "./gradlew assembleDebug"
+        },
+        "raw": "{\"command\": \"./gradlew assembleDebug\"}"
+      }
+    },
+    "time": 115
+  }
+}

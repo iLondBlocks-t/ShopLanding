@@ -1,0 +1,25 @@
+{
+  "id": "evt_step_finish",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_step_finish",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "step-finish",
+      "reason": "stop",
+      "cost": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "reasoning": 0,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      }
+    },
+    "time": 210
+  }
+}

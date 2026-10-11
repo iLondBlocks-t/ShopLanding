@@ -1,0 +1,9 @@
+{
+  "id": "evt_permission_replied",
+  "type": "permission.replied",
+  "properties": {
+    "sessionID": "ses_main",
+    "requestID": "per_build",
+    "reply": "once"
+  }
+}

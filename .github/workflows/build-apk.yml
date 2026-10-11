@@ -1,0 +1,27 @@
+name: Build debug APK
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.5'
+      - name: Forbid AndroidX / Kotlin
+        run: |
+          if grep -R --include='*.java' --include='*.xml' --include='*.gradle' -nE 'androidx\.|import kotlin' app/src app/build.gradle; then echo "AndroidX/Kotlin found"; exit 1; fi
+      - name: Unit tests + debug APK
+        run: gradle --no-daemon testDebugUnitTest assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ocpilot-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error

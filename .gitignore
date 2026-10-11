@@ -1,0 +1,15 @@
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+.idea/
+*.iml
+.work/
+.deliverables/
+*.apk
+ocpilot-android.zip
+__pycache__/
+
+# Keep the requested APK deliverable available across sessions.
+!/ocpilot-debug.apk

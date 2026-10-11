@@ -1,0 +1,18 @@
+{
+  "id": "evt_text_start",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_text",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "text",
+      "text": "Hello",
+      "time": {
+        "start": 1791670800010
+      }
+    },
+    "time": 100
+  }
+}

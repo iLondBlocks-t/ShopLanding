@@ -1,0 +1,9 @@
+{
+  "id": "evt_part_removed",
+  "type": "message.part.removed",
+  "properties": {
+    "sessionID": "ses_main",
+    "messageID": "msg_assistant",
+    "partID": "prt_text"
+  }
+}

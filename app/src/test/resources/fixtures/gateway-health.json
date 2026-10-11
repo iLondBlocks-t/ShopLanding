@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "gateway": "1.0.0",
+  "opencode": {
+    "running": true,
+    "version": "1.18.35"
+  },
+  "uptimeSec": 3600
+}

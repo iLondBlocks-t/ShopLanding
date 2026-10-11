@@ -1,0 +1,13 @@
+{
+  "id": "evt_session_retry",
+  "type": "session.status",
+  "properties": {
+    "sessionID": "ses_main",
+    "status": {
+      "type": "retry",
+      "attempt": 1,
+      "message": "Provider rate limit",
+      "next": 1791670801000
+    }
+  }
+}
