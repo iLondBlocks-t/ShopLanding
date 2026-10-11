@@ -1,0 +1,65 @@
+{
+  "providers": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "source": "config",
+      "env": [
+        "OPENAI_API_KEY"
+      ],
+      "options": {},
+      "models": {
+        "gpt-4.1": {
+          "id": "gpt-4.1",
+          "providerID": "openai",
+          "api": {
+            "id": "sample",
+            "url": "sample",
+            "npm": "sample"
+          },
+          "name": "GPT-4.1",
+          "capabilities": {
+            "temperature": false,
+            "reasoning": false,
+            "attachment": false,
+            "toolcall": false,
+            "input": {
+              "text": false,
+              "audio": false,
+              "image": false,
+              "video": false,
+              "pdf": false
+            },
+            "output": {
+              "text": false,
+              "audio": false,
+              "image": false,
+              "video": false,
+              "pdf": false
+            },
+            "interleaved": false
+          },
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "limit": {
+            "context": 0,
+            "output": 0
+          },
+          "status": "alpha",
+          "options": {},
+          "headers": {},
+          "release_date": "sample"
+        }
+      }
+    }
+  ],
+  "default": {
+    "openai": "gpt-4.1"
+  }
+}

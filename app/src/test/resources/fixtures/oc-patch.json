@@ -1,0 +1,18 @@
+{
+  "id": "evt_patch",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_patch",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "patch",
+      "hash": "0000000000000000000000000000000000000000",
+      "files": [
+        "app/build.gradle"
+      ]
+    },
+    "time": 150
+  }
+}

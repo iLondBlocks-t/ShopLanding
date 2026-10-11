@@ -1,0 +1,86 @@
+[
+  {
+    "error": "unauthorized",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "invalid_code",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "rate_limited",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "too_many_devices",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "invalid_github_token",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "github_permission_denied",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "github_required",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "git_unavailable",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "insufficient_storage",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "project_exists",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "project_not_found",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "opencode_unavailable",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "payload_too_large",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "invalid_json",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "github_token_invalid",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "github_rate_limited",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "github_unreachable",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "internal_error",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "not_found",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "forbidden_path",
+    "message": "The gateway rejected the request."
+  },
+  {
+    "error": "confirmation_required",
+    "message": "The gateway rejected the request."
+  }
+]

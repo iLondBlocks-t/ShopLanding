@@ -1,0 +1,9 @@
+[
+  {
+    "file": "app/build.gradle",
+    "patch": "--- a/app/build.gradle\n+++ b/app/build.gradle\n@@ -1 +1 @@\n-old\n+new\n",
+    "additions": 1,
+    "deletions": 1,
+    "status": "modified"
+  }
+]

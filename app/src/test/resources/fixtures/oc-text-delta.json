@@ -1,0 +1,11 @@
+{
+  "id": "evt_text_delta",
+  "type": "message.part.delta",
+  "properties": {
+    "sessionID": "ses_main",
+    "messageID": "msg_assistant",
+    "partID": "prt_text",
+    "field": "text",
+    "delta": " world"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "evt_permission_asked",
+  "type": "permission.asked",
+  "properties": {
+    "id": "per_build",
+    "sessionID": "ses_main",
+    "permission": "bash",
+    "patterns": [
+      "./gradlew assembleDebug"
+    ],
+    "metadata": {
+      "command": "./gradlew assembleDebug"
+    },
+    "always": [
+      "./gradlew assembleDebug"
+    ]
+  }
+}

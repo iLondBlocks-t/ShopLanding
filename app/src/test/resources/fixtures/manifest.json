@@ -1,0 +1,395 @@
+{
+  "oc-message-user.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessageUpdated"
+  },
+  "oc-message-assistant.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessageUpdated"
+  },
+  "oc-connected.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventServerConnected"
+  },
+  "oc-session-busy.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionStatus"
+  },
+  "oc-session-idle-status.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionStatus"
+  },
+  "oc-session-retry.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionStatus"
+  },
+  "oc-session-idle.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionIdle"
+  },
+  "oc-session-error.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionError"
+  },
+  "oc-session-aborted.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionError"
+  },
+  "oc-text-start.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-text-full.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-text-stale.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-text-delta.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartDelta"
+  },
+  "oc-reasoning.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-tool-running.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-tool-pending.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-tool-completed.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-tool-error.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-step-start.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-step-finish.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-patch.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-file-part.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartUpdated"
+  },
+  "oc-permission-asked.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventPermissionAsked"
+  },
+  "oc-permission-replied.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventPermissionReplied"
+  },
+  "oc-message-removed.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessageRemoved"
+  },
+  "oc-part-removed.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventMessagePartRemoved"
+  },
+  "oc-file-edited.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventFileEdited"
+  },
+  "oc-session-diff.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": "EventSessionDiff"
+  },
+  "oc-session.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "$ref": "#/components/schemas/Session"
+    }
+  },
+  "oc-sessions.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "array",
+      "items": {
+        "$ref": "#/components/schemas/Session"
+      },
+      "description": "List of sessions"
+    }
+  },
+  "oc-statuses.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/components/schemas/SessionStatus"
+      },
+      "description": "Get session status"
+    }
+  },
+  "oc-permissions.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "array",
+      "items": {
+        "$ref": "#/components/schemas/PermissionRequest"
+      },
+      "description": "List of pending permissions"
+    }
+  },
+  "oc-abort.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "boolean",
+      "description": "Aborted session"
+    }
+  },
+  "oc-permission-reply.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "boolean",
+      "description": "Permission processed successfully"
+    }
+  },
+  "oc-diff.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "array",
+      "items": {
+        "$ref": "#/components/schemas/SnapshotFileDiff"
+      },
+      "description": "Successfully retrieved diff"
+    }
+  },
+  "oc-providers.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "providers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/Provider"
+          }
+        },
+        "default": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "providers",
+        "default"
+      ],
+      "additionalProperties": false,
+      "description": "List of providers"
+    }
+  },
+  "oc-providers-empty.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "providers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/Provider"
+          }
+        },
+        "default": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "providers",
+        "default"
+      ],
+      "additionalProperties": false,
+      "description": "List of providers"
+    }
+  },
+  "oc-messages.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "info": {
+            "$ref": "#/components/schemas/Message"
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Part"
+            }
+          }
+        },
+        "required": [
+          "info",
+          "parts"
+        ],
+        "additionalProperties": false
+      },
+      "description": "List of messages"
+    }
+  },
+  "oc-message-response.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "object",
+      "required": [
+        "info",
+        "parts"
+      ],
+      "properties": {
+        "info": {
+          "$ref": "#/components/schemas/AssistantMessage"
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/Part"
+          }
+        }
+      }
+    }
+  },
+  "oc-prompt-request.json": {
+    "source": "OpenCode v1.18.35",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "messageID": {
+          "type": "string",
+          "pattern": "^msg"
+        },
+        "model": {
+          "type": "object",
+          "properties": {
+            "providerID": {
+              "type": "string"
+            },
+            "modelID": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "providerID",
+            "modelID"
+          ],
+          "additionalProperties": false
+        },
+        "agent": {
+          "type": "string"
+        },
+        "noReply": {
+          "type": "boolean"
+        },
+        "tools": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "boolean"
+          }
+        },
+        "format": {
+          "$ref": "#/components/schemas/OutputFormat"
+        },
+        "system": {
+          "type": "string"
+        },
+        "variant": {
+          "type": "string"
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/TextPartInput"
+              },
+              {
+                "$ref": "#/components/schemas/FilePartInput"
+              },
+              {
+                "$ref": "#/components/schemas/AgentPartInput"
+              },
+              {
+                "$ref": "#/components/schemas/SubtaskPartInput"
+              }
+            ]
+          }
+        }
+      },
+      "required": [
+        "parts"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "gateway-health.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-pair.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-rotate.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-github.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-github-disconnected.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-status.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-devices.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-repos.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-repo-created.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-projects.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-project.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-project-empty.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-git.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-artifacts.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "gateway-errors.json": {
+    "source": "SHARED API CONTRACT v1"
+  },
+  "http-no-content.txt": {
+    "source": "Both contracts",
+    "status": 204,
+    "bodyBytes": 0
+  }
+}

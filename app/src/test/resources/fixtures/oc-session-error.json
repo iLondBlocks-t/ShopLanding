@@ -1,0 +1,15 @@
+{
+  "id": "evt_session_error",
+  "type": "session.error",
+  "properties": {
+    "sessionID": "ses_main",
+    "error": {
+      "name": "APIError",
+      "data": {
+        "message": "Provider temporarily unavailable",
+        "statusCode": 503,
+        "isRetryable": true
+      }
+    }
+  }
+}

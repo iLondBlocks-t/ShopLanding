@@ -1,0 +1,20 @@
+{
+  "id": "evt_message_user",
+  "type": "message.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "info": {
+      "id": "msg_user",
+      "sessionID": "ses_main",
+      "role": "user",
+      "time": {
+        "created": 1791670800000
+      },
+      "agent": "build",
+      "model": {
+        "providerID": "openai",
+        "modelID": "gpt-4.1"
+      }
+    }
+  }
+}

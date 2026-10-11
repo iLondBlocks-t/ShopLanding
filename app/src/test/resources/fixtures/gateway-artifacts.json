@@ -1,0 +1,44 @@
+[
+  {
+    "path": "app-debug.apk",
+    "size": 123456,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "modifiedAt": "2026-10-10T22:00:00Z",
+    "kind": "apk-debug"
+  },
+  {
+    "path": "app-debug.apk",
+    "size": 123456,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "modifiedAt": "2026-10-10T22:00:00Z",
+    "kind": "apk-release"
+  },
+  {
+    "path": "app-debug.apk",
+    "size": 123456,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "modifiedAt": "2026-10-10T22:00:00Z",
+    "kind": "apk"
+  },
+  {
+    "path": "app-debug.apk",
+    "size": 123456,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "modifiedAt": "2026-10-10T22:00:00Z",
+    "kind": "zip"
+  },
+  {
+    "path": "app-debug.apk",
+    "size": 123456,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "modifiedAt": "2026-10-10T22:00:00Z",
+    "kind": "log"
+  },
+  {
+    "path": "app-debug.apk",
+    "size": 123456,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "modifiedAt": "2026-10-10T22:00:00Z",
+    "kind": "other"
+  }
+]

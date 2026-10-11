@@ -1,0 +1,36 @@
+{
+  "gateway": {
+    "version": "1.0.0",
+    "uptimeSec": 3600,
+    "startedAt": "2026-10-10T21:00:00Z"
+  },
+  "opencode": {
+    "running": true,
+    "version": "1.18.35",
+    "restarts": 0,
+    "lastError": null
+  },
+  "github": {
+    "connected": true,
+    "login": "octocat",
+    "scopes": [
+      "repo"
+    ]
+  },
+  "system": {
+    "freeDiskMB": 12000,
+    "memTotalMB": 8000,
+    "memFreeMB": 4000
+  },
+  "tools": {
+    "git": true,
+    "node": "v20.19.0",
+    "java": true,
+    "gradle": true,
+    "androidSdk": true
+  },
+  "device": {
+    "id": "device_example",
+    "name": "Pixel 6"
+  }
+}

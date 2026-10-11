@@ -1,0 +1,14 @@
+{
+  "id": "evt_step_start",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_step_start",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "step-start"
+    },
+    "time": 110
+  }
+}

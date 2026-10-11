@@ -1,0 +1,10 @@
+{
+  "id": "evt_session_busy",
+  "type": "session.status",
+  "properties": {
+    "sessionID": "ses_main",
+    "status": {
+      "type": "busy"
+    }
+  }
+}

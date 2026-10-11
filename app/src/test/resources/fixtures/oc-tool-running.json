@@ -1,0 +1,25 @@
+{
+  "id": "evt_tool_running",
+  "type": "message.part.updated",
+  "properties": {
+    "sessionID": "ses_main",
+    "part": {
+      "id": "prt_tool",
+      "sessionID": "ses_main",
+      "messageID": "msg_assistant",
+      "type": "tool",
+      "callID": "call_build",
+      "tool": "bash",
+      "state": {
+        "status": "running",
+        "input": {
+          "command": "./gradlew assembleDebug"
+        },
+        "time": {
+          "start": 1791670800020
+        }
+      }
+    },
+    "time": 120
+  }
+}

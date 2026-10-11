@@ -1,0 +1,7 @@
+{
+  "id": "evt_session_idle",
+  "type": "session.idle",
+  "properties": {
+    "sessionID": "ses_main"
+  }
+}
